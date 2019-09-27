@@ -1,0 +1,187 @@
+{
+    "clothes": [
+        {
+            "pp": "Smartisan T恤 丑小鸭",
+            "h": "9.22特惠",
+            "h2": "舒适安逸",
+            "price": 199
+        },
+        {
+            "pp": "Smartisan T恤 红白机",
+            "h": "9.22红白机特惠",
+            "h2": "舒适安逸",
+            "price": 199
+        },
+        {
+            "pp": "Smartisan T恤 迪特拉姆斯",
+            "h": "9.22Smartisan T恤 迪特拉姆斯特惠",
+            "h2": "舒适安逸",
+            "price": 199
+        },
+        {
+            "pp": "Smartisan T恤 经典款",
+            "h": "9.22Smartisan T恤 经典款特惠",
+            "h2": "舒适安逸",
+            "price": 199
+        },
+        {
+            "pp": "Smartisan Polo衫 经典款",
+            "h": "9.22Smartisan Polo衫 经典款特惠",
+            "h2": "舒适安逸",
+            "price": 199
+        },
+        {
+            "pp": "Smartisan 帆布鞋",
+            "h": "9.22-9.24帆布鞋特惠",
+            "h2": "一双踏实、舒适的帆布鞋",
+            "price": 199
+        }
+    ],
+    "clothesimgs": [
+        "https://resource.smartisan.com/resource/c892f825c80767c2bef15081352d2aa4.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/523f99151e23ab444702c6043a09bd4e.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/24c6437342c9ea969e13f00b82f7e3e5.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/66b25ef2a60c262b6c2de2e2b60acb09.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/634985c17a054755ca0bb9716813562b.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/182f12dd776f2c9ad59657d9d300fb1f.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/9ffcc343386ddcf302fae417428fa095.jpg?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/e813f18df1c317423519884f7481718b.jpg?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/daa975651d6d700c0f886718c520ee19.jpg?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/ec1b30b9e3890471b9d9188e497e3873.jpg?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/1c13034d1028f3620d487c1db7184a51.jpg?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/2f9a0f5f3dedf0ed813622003f1b287b.jpg?x-oss-process=image/resize,w_216/format,webp"
+    ],
+    "bag": [
+        {
+            "pp": "地平线 8 号商务旅行箱",
+            "h": "为了野心和远方",
+            "h2": "为了野心和远方",
+            "price": 399
+        },
+        {
+            "pp": "地平线 8 号旅行箱",
+            "h": "简约设计、德国拜耳 PC 箱体",
+            "h2": "简约设计、德国拜耳 PC 箱体",
+            "price": 399
+        },
+        {
+            "pp": "Smartisan T恤 迪特拉姆斯",
+            "h": "Smartisan T恤 迪特拉姆斯",
+            "h2": "Smartisan T恤 迪特拉姆斯",
+            "price": 149
+        },
+        {
+            "pp": "Smartisan T恤 萌锤",
+            "h": "Smartisan T恤 萌锤",
+            "h2": "Smartisan T恤 萌锤",
+            "price": 159
+        },
+        {
+            "pp": "地平线 8 号旅行箱 冰川粉",
+            "h": "高级淡雅，颠覆你对粉色的固有想象",
+            "h2": "地平线 8 号旅行箱 冰川粉",
+            "price": 399
+        },
+        {
+            "pp": "Smartisan 帆布鞋",
+            "h": "一双踏实、舒适的帆布鞋",
+            "h2": "Smartisan 帆布鞋",
+            "price": 199
+        }
+    ],
+    "bagimgs": [
+        "https://resource.smartisan.com/resource/d1dcca9144e8d13ffb33026148599d0a.png",
+        "https://resource.smartisan.com/resource/190a2b0f96274c85973e1dd6ba3b511b.png",
+        "https://resource.smartisan.com/resource/db4895e45ee6f3339037dbf7200e63f2.png",
+        "https://resource.smartisan.com/resource/235a6c634a38aa2ccf1d6d82ec47103f.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/005c65324724692f7c9ba2fc7738db13.png",
+        "https://resource.smartisan.com/resource/182f12dd776f2c9ad59657d9d300fb1f.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/80f86956e4498ef534e989e12aeb9bab.png",
+        "https://resource.smartisan.com/resource/e1ffe55f70b48e12257bac4af524b5f1.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/32de3f32aea18639e29e3d1c9f821c96.jpeg",
+        "https://resource.smartisan.com/resource/578116bddf1d170c89e9af7ba5073fb6.jpg",
+        "https://resource.smartisan.com/resource/1c13034d1028f3620d487c1db7184a51.jpg?x-oss-process=image/resize,w_216/format,webp"
+    ],
+    "phone": [
+        {
+            "id": 1,
+            "pp": "坚果 Pro 2S",
+            "h": "前置 1600 万像素摄像头 · 6.01 英寸全高清全面屏 ",
+            "h2": "双系统，无限屏，骁龙 ™ 710 处理器",
+            "price": "1798"
+        },
+        {
+            "id": 2,
+            "pp": "坚果 R1",
+            "h": "次世代旗舰手机，内藏来自未来的“电脑",
+            "h2": "次世代旗舰手机，内藏来自未来的“电脑",
+            "price": "2999"
+        },
+        {
+            "id": 3,
+            "pp": "坚果彩虹数据线",
+            "h": "9.22-9.24金秋特惠",
+            "h2": "七彩配色随机发货，为生活增添一份小小惊喜",
+            "price": "36"
+        },
+        {
+            "id": 4,
+            "pp": "坚果 Type-C To Type-C 数据线",
+            "h": "9.22-9.24金秋特惠",
+            "h2": "坚果 Type-C To Type-C 数据线",
+            "price": "39"
+        },
+        {
+            "id": 5,
+            "pp": "Smartisan 耳机转接头",
+            "h": "9.22-9.24金秋特惠",
+            "h2": "Smartisan 耳机转接头",
+            "price": "19"
+        },
+        {
+            "id": 6,
+            "pp": "坚果 QuickCharge 4+ 快速充电器",
+            "h": "9.22-9.24金秋特惠",
+            "h2": "全面兼容的 18W 快速充电",
+            "price": "59"
+        }
+    ],
+    "phoneimgs": [
+        "https://resource.smartisan.com/resource/b07b9765e272f866da6acda4ee107d88.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/2f2afca6f88e3aef5b1f332ea0c1d65a.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/17f254e6f809355d8fe66260ccb48fb0.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/efb9aacaab54e8a7fe5bbfbe8979adcd.png?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/82aab62886740f165a3631ce6cffe895.jpg?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/8635cb91f2cdbbc5576e069c52b99412.jpg?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/45312fb748d54aa2e58a8f4d637e9e65.jpg?x-oss-process=image/resize,w_216/format,webp",
+        "https://resource.smartisan.com/resource/a668d1a5f41b04ece82d76ded1e94d3a.jpg?x-oss-process=image/resize,w_216/format,webp"
+    ],
+    "bbs": [
+        {
+            "p": "内敛骚蓝，惊艳炫光",
+            "h6": "[开箱] 坚果 Pro 2S 内敛骚蓝惊艳炫光",
+            "span": "阅读全文"
+        },
+        {
+            "p": "全新的炫光蓝及炫光红色相当惊艳",
+            "h6": "[开箱] 坚果 Pro 2S 惊艳开箱",
+            "span": "阅读全文"
+        },
+        {
+            "p": "有美如斯，冰清玉洁",
+            "h6": "[开箱] 纯白色坚果 Pro2 图赏",
+            "span": "阅读全文"
+        },
+        {
+            "p": "8 月的优秀作品如期而至",
+            "h6": "[合辑] 八月优秀摄影作品欣赏",
+            "span": "阅读全文"
+        }
+    ],
+    "bbsimgs": [
+        "https://resource.smartisan.com/resource/4025f0c8dcca6f70e1e614f74e0c1632.jpg?x-oss-process=image/resize,w_246/format,webp",
+        "https://resource.smartisan.com/resource/75fe6d344e6a344cd341f282b0b1f8f3.jpg?x-oss-process=image/resize,w_246/format,webp",
+        "https://resource.smartisan.com/resource/8cc33abdf12f87b809b1858de2151d40.jpg?x-oss-process=image/resize,w_246/format,webp",
+        "https://resource.smartisan.com/resource/407bcb8a886ddcb5e97045dbdafad990.jpeg?x-oss-process=image/resize,w_246/format,webp"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "id6": {
+        "id": "6",
+        "imgpath": [
+            "https://resource.smartisan.com/resource/a668d1a5f41b04ece82d76ded1e94d3a.jpg?x-oss-process=image/resize,w_527/format,webp",
+            "https://resource.smartisan.com/resource/c2375861762d557f65cf880b00161a41.jpg?x-oss-process=image/resize,w_527/format,webp",
+            "https://resource.smartisan.com/resource/630dc5c945e78c0613d872cb83222b9e.jpg?x-oss-process=image/resize,w_527/format,webp"
+        ],
+        "price": "49",
+        "max": "10",
+        "name": "坚果 QuickCharge 4+ 快速充电器",
+        "jieshao": "全面兼容的 18W 快速充电",
+        "cuxiao": "国庆限时特惠",
+        "color": [
+            "white"
+        ],
+        "message": [
+            "https://resource.smartisan.com/resource/0b82537b59836a62ca53c5df75a95331.jpg?x-oss-process=image/resize,w_1370/indexcrop,y_1440,i_0/format,webp/quality,Q_100",
+            "https://resource.smartisan.com/resource/0b82537b59836a62ca53c5df75a95331.jpg?x-oss-process=image/resize,w_1370/indexcrop,y_1440,i_1/format,webp/quality,Q_100",
+            "https://resource.smartisan.com/resource/0b82537b59836a62ca53c5df75a95331.jpg?x-oss-process=image/resize,w_1370/indexcrop,y_1440,i_2/format,webp/quality,Q_100",
+            "https://resource.smartisan.com/resource/0b82537b59836a62ca53c5df75a95331.jpg?x-oss-process=image/resize,w_1370/indexcrop,y_1440,i_3/format,webp/quality,Q_100",
+            "https://resource.smartisan.com/resource/0b82537b59836a62ca53c5df75a95331.jpg?x-oss-process=image/resize,w_1370/indexcrop,y_1440,i_4/format,webp/quality,Q_100",
+            "https://resource.smartisan.com/resource/0b82537b59836a62ca53c5df75a95331.jpg?x-oss-process=image/resize,w_1370/indexcrop,y_1440,i_5/format,webp/quality,Q_100"
+        ]
+    },
+    "id1": {
+        "id": "1",
+        "imgpath": [
+            "https://resource.smartisan.com/resource/b07b9765e272f866da6acda4ee107d88.png?x-oss-process=image/resize,w_527/format,webp",
+            "https://resource.smartisan.com/resource/25cc6e783a664fbdf83c3c34774a9826.png?x-oss-process=image/resize,w_527/format,webp",
+            "https://resource.smartisan.com/resource/2f2afca6f88e3aef5b1f332ea0c1d65a.png?x-oss-process=image/resize,w_527/format,webp"
+        ],
+        "price": "3449",
+        "max": "5",
+        "name": "坚果PRO2S",
+        "jieshao": "双系统，无限屏",
+        "cuxiao": "最近无促销活动",
+        "color": [
+            "red",
+            "blue"
+        ],
+        "message": [
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_0/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_1/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_2/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_3/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_4/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_5/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_6/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_7/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_8/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_9/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_10/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_11/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_12/format,webp",
+            "https://resource.smartisan.com/resource/40ce3f629edb82edb8fda25ec6457123.jpg?x-oss-process=image/resize,w_1920/indexcrop,y_1440,i_13/format,webp"
+        ]
+    }
+}

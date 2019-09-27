@@ -1,0 +1,160 @@
+{
+    "id1": [
+        {
+            "path": "https://resource.smartisan.com/resource/b07b9765e272f866da6acda4ee107d88.png?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果 Pro 2S",
+            "jieshao": "双系统，无限屏",
+            "peice": "1798.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/84366aa98fd0659d7809e1b9eed62cb4.png?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果 Pro 2 特别版",
+            "jieshao": "漂亮得不像实力派",
+            "peice": "1899.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/06c2253354096f5e9ebf0616f1af2086.png?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果 R1",
+            "jieshao": "次世代旗舰手机，内藏来自未来的“电脑”",
+            "peice": "2999.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/13e91511f6ba3227ca5378fd2e93c54b.png?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果 3",
+            "jieshao": "漂亮得不像实力派",
+            "peice": "1299.00"
+        }
+    ],
+    "id2": [
+        {
+            "path": "https://resource.smartisan.com/resource/834e8388b0017c457c98baa6545cdfb2.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "C-force  USB-C多功能转接器",
+            "jieshao": "可以替换Switch底座的超便携4K视频转接器",
+            "peice": "168.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/2d106f8a751539abba6f446d3cda7818.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果快充移动电源 10000mAh （18W max）",
+            "jieshao": "支持QC3.0/PD3.0协议，USB-C口可支持苹果手机快充，小巧便携，多重安全防护",
+            "peice": "129.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/82aab62886740f165a3631ce6cffe895.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果彩虹数据线",
+            "jieshao": "国庆限时特惠",
+            "peice": "16.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/f55641e23f35f6dd82226b6c4a043f00.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果三脚架自拍杆",
+            "jieshao": "国庆限时特惠",
+            "peice": "99.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/c44f0ab4da5591fc3d0f82b7ac0f4f65.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果砖式蓝牙小音箱",
+            "jieshao": "国庆限时特惠",
+            "peice": "109.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/f55641e23f35f6dd82226b6c4a043f00.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果三脚架自拍杆",
+            "jieshao": "国庆限时特惠",
+            "peice": "99.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/30ac0a1ab02999667f1362c501447e58.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "Smartisan 半入耳式耳机",
+            "jieshao": "国庆限时特惠",
+            "peice": "39.00"
+        }
+    ],
+    "id3": [
+        {
+            "path": "https://resource.smartisan.com/resource/834e8388b0017c457c98baa6545cdfb2.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "C-force  USB-C多功能转接器",
+            "jieshao": "可以替换Switch底座的超便携4K视频转接器",
+            "peice": "168.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/2d106f8a751539abba6f446d3cda7818.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果快充移动电源 10000mAh （18W max）",
+            "jieshao": "支持QC3.0/PD3.0协议，USB-C口可支持苹果手机快充，小巧便携，多重安全防护",
+            "peice": "129.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/82aab62886740f165a3631ce6cffe895.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果彩虹数据线",
+            "jieshao": "国庆限时特惠",
+            "peice": "16.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/f55641e23f35f6dd82226b6c4a043f00.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果三脚架自拍杆",
+            "jieshao": "国庆限时特惠",
+            "peice": "99.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/c44f0ab4da5591fc3d0f82b7ac0f4f65.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果砖式蓝牙小音箱",
+            "jieshao": "国庆限时特惠",
+            "peice": "109.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/f55641e23f35f6dd82226b6c4a043f00.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果三脚架自拍杆",
+            "jieshao": "国庆限时特惠",
+            "peice": "99.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/30ac0a1ab02999667f1362c501447e58.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "Smartisan 半入耳式耳机",
+            "jieshao": "国庆限时特惠",
+            "peice": "39.00"
+        }
+    ],
+    "id4": [
+        {
+            "path": "https://resource.smartisan.com/resource/834e8388b0017c457c98baa6545cdfb2.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "C-force  USB-C多功能转接器",
+            "jieshao": "可以替换Switch底座的超便携4K视频转接器",
+            "peice": "168.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/2d106f8a751539abba6f446d3cda7818.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果快充移动电源 10000mAh （18W max）",
+            "jieshao": "支持QC3.0/PD3.0协议，USB-C口可支持苹果手机快充，小巧便携，多重安全防护",
+            "peice": "129.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/82aab62886740f165a3631ce6cffe895.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果彩虹数据线",
+            "jieshao": "国庆限时特惠",
+            "peice": "16.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/f55641e23f35f6dd82226b6c4a043f00.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果三脚架自拍杆",
+            "jieshao": "国庆限时特惠",
+            "peice": "99.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/c44f0ab4da5591fc3d0f82b7ac0f4f65.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果砖式蓝牙小音箱",
+            "jieshao": "国庆限时特惠",
+            "peice": "109.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/f55641e23f35f6dd82226b6c4a043f00.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "坚果三脚架自拍杆",
+            "jieshao": "国庆限时特惠",
+            "peice": "99.00"
+        },
+        {
+            "path": "https://resource.smartisan.com/resource/30ac0a1ab02999667f1362c501447e58.jpg?x-oss-process=image/resize,w_204/format,webp",
+            "name": "Smartisan 半入耳式耳机",
+            "jieshao": "国庆限时特惠",
+            "peice": "39.00"
+        }
+    ]
+}

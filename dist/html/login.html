@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../minicss/loginmin.css">
+    <style>
+        @font-face {
+            font-family: 'iconfont';
+            src: url('../../dist/fontstyle/iconfont.eot');
+            src: url('../../dist/fontstyle/iconfont.eot?#iefix') format('embedded-opentype'),
+                url('../../dist/fontstyle/iconfont.woff2') format('woff2'),
+                url('../../dist/fontstyle/iconfont.woff') format('woff'),
+                url('../../dist/fontstyle/iconfont.ttf') format('truetype'),
+                url('../../dist/fontstyle/iconfont.svg#iconfont') format('svg');
+        }
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 16px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            display: block;
+            float: left;
+            line-height: 20px;
+            height: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            margin: 15px 15px 0 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loginbox">
+        <div class="loginboxtop">
+            <img src="../../static/images/loginlogo .png">
+            <P>使用 Smartisan ID 登录官网</P>
+        </div>
+        <div class="frombox">
+            <ul class="loginul">
+                <li class="loginbigli"><span class="iconfont">&#xe607;</span><input type="text" class="username"
+                        name="user" placeholder="用户名"></li>
+                <li class="loginbigli"><span class="iconfont">&#xe501;</span><input type="text" class="password"
+                        name="pass" placeholder="密码"></li>
+                <li><input type="checkbox" class="check"></li>
+                <b>记住我</b>
+                <a href="region.html" class="zhuce">没有锤子账号？点我注册</a>
+            </ul>
+            <input type="submit" class="loginbtn" value="登录">
+        </div>
+    </div>
+
+</body>
+<script src="../../dist/minijs/jquery.js"></script>
+<script src="../../dist/minijs/cookie.js"></script>
+<script>
+    var u = getCookie("uname");
+    if (u == undefined) {
+        console.log(123)
+    } else {
+        $(".username").val(u);
+    }
+
+    $(".loginbtn").click(function () {
+        var username = $(".username").val();
+        var password = $(".password").val();
+        var remember = $(".check").prop('checked');
+        console.log(remember);
+        $.ajax({
+            type: 'post',
+            url: '../php/login.php',
+            data: { uname: username, pass: password },
+            dataType: 'json',
+            async: true,
+            success: function (res) {
+                var res = res;
+                if (res.status === 1) {
+                    alert(res.msg);
+                    setCookie("username", username, 5 * 24 * 3600);
+                    if (remember) {
+                        setCookie("uname", username, 7 * 24 * 60 * 60);
+                    }
+                    else {
+                        delCookie("uname");
+                    }
+                    location.href = '../../index.html';
+                } else if (res.status === 2) {
+                    alert(res.msg);
+                    return false;
+                }
+            }
+        })
+    })
+</script>
+<script src="../minijs/jquery.js"></script>
+<script src="../minijs/cookie.js"></script>
+<script>
+    var u = getCookie("username");
+    if (u == undefined) {
+        $(".onoff").css("display", "block");
+        $(".out").css("display", "none");
+    } else {
+        $(".username").text("欢迎" + u);
+        $(".onoff").css("display", "none");
+        $(".out").css("display", "block");
+    }
+    $(".out").click(function () {
+        delCookie("username");
+        alert("退出登录成功")
+        location.reload();
+
+    })
+
+</script>
+
+</html>

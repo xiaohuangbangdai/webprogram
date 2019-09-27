@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../minicss/regionmin.css">
+</head>
+
+<body>
+    <center>
+        <form method="POST" action="../php/region.php">
+            <table class="frombox">
+                <div class="head">注册 Smartisan ID</div>
+                <tr class="top">
+                    <td class="name">用户名</td>
+                    <td><input type="text" name="username"></td>
+                    <td class="tip" id="nametip">请输入您的用户名</td>
+                </tr>
+                <tr>
+                    <td class="pass">密码</td>
+                    <td><input type="text" name="password"></td>
+                    <td class="tip" id="passwordtip">请输入您的密码</td>
+
+                </tr>
+                <tr>
+                    <td class="re">确认密码</td>
+                    <td><input type="text" name="repassword" disabled="disabled"></td>
+                    <td class="tip" id="repasswordtip">请确认您的密码</td>
+
+                </tr>
+                <tr>
+                    <td class="tel">手机号</td>
+                    <td><input type="text" name="phone"></td>
+                    <td class="tip" id="phonetip">请入如您的手机号</td>
+
+                </tr>
+                <tr>
+                    <td class="ema">邮箱</td>
+                    <td><input type="email" name="email"></td>
+                    <td class="tip" id="emailtip">请输入邮箱</td>
+
+                </tr>
+                <tr>
+                    <td id="btntd">
+                        <button class="tijiao">注册</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+<script src="../minijs/jquery.js"></script>
+<script>
+    var arr = ["用户名由字母数字大小写字母组成，最少3位最多16位", "密码的位数不得少于6位不得超过16位", "请再次输入您的密码", "请输入您的手机号", "请输入您的邮箱"];
+    $("input").on("focus", function () {
+        $(".tip").eq(($(this).parent().parent().index())).text(arr[$(this).parent().parent().index()])
+    })
+    var namereg = /^[_a-zA-Z\u4e00-\u9fa5]{3,16}$/
+    var passwordreg = /^[a-zA-Z0-9_-]{6,18}$/;
+    var phonereg = /^1[3578][0-9]{9}$/;
+    var emailreg = /^\w\w+@(163|126|qq|sina|gmail)\.com$/;;
+
+
+    var k = {};
+    $("[name='username']").blur(function () {
+        var namevalue = $("[name='username']").val();
+        console.log(namevalue);
+        if (namereg.test(namevalue)) {
+            k.name = 1;
+            $("#nametip").text("合格").css("color", 'black')
+        } else {
+            k.name = 0;
+            if (namevalue.length < 3 || namevalue.length > 16) {
+                $("#nametip").text("用户名长度不合格").css("color", "red")
+            }
+            else {
+                $("#nametip").text("用户名不符合规范").css("color", "red")
+            }
+        }
+    })
+
+
+
+
+    $("[name='password']").blur(function () {
+        var passwordvalue = $("[name='password']").val();
+        if (passwordreg.test(passwordvalue)) {
+            $("#passwordtip").text("合格").css("color", 'black')
+            k.password = 1;
+            repass();
+            console.log($("[name='repassword']").val())
+        } else {
+            k.password = 0;
+            if (passwordvalue.length < 3 || passwordvalue.length > 16) {
+                $("#passwordtip").text("密码长度不合格").css("color", "red")
+            }
+            else {
+                $("#passwordtip").text("密码不符合规范").css("color", "red")
+            }
+        }
+        if (k.password == 0) {
+            $("[name='repassword']").prop("disabled", "disabled");
+        } else {
+            $("[name='repassword']").prop("disabled", "");
+        }
+
+    })
+
+    $("[name='repassword']").blur(function () {
+        repass();
+    })
+
+
+    $("[name='phone']").blur(function () {
+        var phonevalue = $("[name='phone']").val();
+
+        if (phonereg.test(phonevalue)) {
+            $("#phonetip").text("合格").css("color", 'black');
+            k.phone = 1;
+        } else {
+            $("#phonetip").text("手机号不合格").css("color", 'red');
+            k.phone = 0;
+        }
+
+    })
+
+
+
+    $("[name='email']").blur(function () {
+        var emailvalue = $("[name='email']").val();
+
+        if (emailreg.test(emailvalue)) {
+            $("#emailtip").text("合格").css("color", 'black');
+            k.email = 1;
+        } else {
+            $("#emailtip").text("邮箱格式不合格").css("color", 'red');
+            k.email = 0;
+        }
+
+    })
+
+
+    function repass() {
+        if ($("[name='repassword']").val() != "") {
+            if ($("[name='repassword']").val() == $("[name='password']").val()) {
+                $("#repasswordtip").text("正确").css("color", 'black')
+                k.repass = 1;
+            } else {
+                $("#repasswordtip").text("两次输入密码不一致").css("color", 'red')
+                k.repass = 0;
+            }
+        } if ($("[name='repassword']").val() == "" && ($("[name='password']").val() != "")) {
+            $("#repasswordtip").text(arr[2]);
+        }
+
+    }
+    $(".tijiao").click(function () {
+        for (var i in k) {
+            if (k[i] == 0) {
+                alert("信息有误无法提交，请返回修改")
+                return false;
+            }
+        }
+    });
+
+</script>
+
+</html>

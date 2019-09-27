@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4670855",
+      "name": "钥匙",
+      "font_class": "yaoshi",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "7463808",
+      "name": "用户名",
+      "font_class": "yonghuming",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}
